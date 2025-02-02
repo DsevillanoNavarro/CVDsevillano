@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 data-es="Bienvenido" data-en="Welcome">Bienvenido</h1>
+        <label class="switch">
+            <span id="idioma">IDIOMA:</span>
+            <!-- Bandera España -->
+            <img id="flag-spanish" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png" alt="Español" class="flag">
+            <input type="checkbox" id="languageSwitch" onchange="cambiarIdioma(this.checked)">
+            <span class="slider"></span>
+            <!-- Bandera Reino Unido -->
+            <img id="flag-english" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_Kingdom.svg/2560px-Flag_of_the_United_Kingdom.svg.png" alt="Inglés" class="flag">
+        </label>
+    </header>
+
+    <p data-es="Esta es una página de ejemplo en español." data-en="This is an example page in English.">Esta es una página de ejemplo en español.</p>
+
+    <section>
+        <h2 data-es="Subtítulo en Español" data-en="Subtitle in English">Subtítulo en Español</h2>
+        <p data-es="Este es un párrafo adicional en español." data-en="This is an additional paragraph in English.">Este es un párrafo adicional en español.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
