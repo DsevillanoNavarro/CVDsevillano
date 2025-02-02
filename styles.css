@@ -120,7 +120,7 @@ input:checked + .slider:before {
     }
 }
 
-h2, p, h1 {
+h2, p, h1, img {
     opacity: 0; /* Start hidden */
     animation: fadeIn 1s forwards; /* Apply animation */
 }
@@ -204,5 +204,24 @@ p {
 }
 
 .boton-visitar:hover {
-    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+    background-color: #060606; /* Color de fondo al pasar el mouse */
 }
+
+#tarjetaTrabajoInvertida {
+    display: flex;
+    align-items: center;
+    background-color: #231f1c; /* Fondo de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 40px; /* Margen entre tarjetas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+
+}
+
+.trabajo-imagen {
+    width: 40%; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    margin-left: 20px; /* Espacio entre la imagen y el contenido */
+}
+
