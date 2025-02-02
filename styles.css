@@ -19,6 +19,7 @@ header {
     padding: 10px;
     background-color: #14110F;
     color: #F3F3F4;
+	
 }
 
 .language-switch {
@@ -90,10 +91,21 @@ input:checked + .slider:before {
     background-size: cover;
     background-position: center;
     padding: 50px;
+	margin: 40px;
     animation: fadeIn 1s ease-in-out; /* Animation for section */
-	height: auto;
-	justify-items: center;
-	align-content: center;
+    height: auto;
+    justify-items: center;
+    align-content: center;
+    border: 1px solid transparent; /* Border default color */
+    border-radius: 15px; /* Rounded corners */
+    transition: box-shadow 1s; /* Smooth transition for border color */
+	overflow: hidden;
+}
+
+/* Change border color on click */
+#presentacion:hover {
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+	
 }
 
 /* Animation for text appearance */
@@ -127,4 +139,16 @@ h2 {
 }
 p {
     animation-delay: 1s; /* Delay for paragraph */
+}
+
+#separador{
+	margin-top: 7em;
+	height: 0.2em;
+	background-color: #F3F3F4;
+	width: 90%;
+}
+
+#tituloTrabajos{
+	text-align: center;
+	font-size: 4em;
 }
