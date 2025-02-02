@@ -1,9 +1,13 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@300;400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
     margin: 0;
     padding: 0;
-	background-color: #14110F;
-	color: #F3F3F4;
+    background-color: #14110F;
+    color: #F3F3F4;
+	width: 100%;
 }
 
 header {
@@ -13,9 +17,8 @@ header {
     width: 90%;
     margin: auto;
     padding: 10px;
-	background-color: #14110F;
-	color: #F3F3F4;
-
+    background-color: #14110F;
+    color: #F3F3F4;
 }
 
 .language-switch {
@@ -79,4 +82,47 @@ input:checked + .slider {
 
 input:checked + .slider:before {
     transform: translateX(26px);
+}
+
+/* New styles for section */
+#presentacion {
+    background-image: url('https://images.pexels.com/photos/6924270/pexels-photo-6924270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    animation: fadeIn 1s ease-in-out; /* Animation for section */
+	height: 35em;
+	align-content: center;
+}
+
+/* Animation for text appearance */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2, p, h1 {
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 1s forwards; /* Apply animation */
+}
+
+h2 {
+    animation-delay: 0.5s; /* Delay for h2 */
+}
+#tituloPresentacion{
+	font-size: 7em;
+	margin:0;
+}
+#subtituloPresentacion{
+	font-size: 4em;
+	margin: 0;
+}
+p {
+    animation-delay: 1s; /* Delay for paragraph */
 }
