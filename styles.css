@@ -152,3 +152,57 @@ p {
 	text-align: center;
 	font-size: 4em;
 }
+#trabajos {
+    margin: 40px 0;
+}
+
+#tarjetaTrabajo {
+    display: flex;
+    align-items: center;
+    background-color: #231f1c; /* Fondo de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 40px ; /* Margen entre tarjetas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+#tarjetaTrabajo:hover {
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+	
+}
+
+.trabajo-imagen {
+    width: 40%; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el contenido */
+}
+
+.trabajo-contenido {
+    flex: 1; /* Ocupa el espacio restante */
+}
+
+.trabajo-contenido h3 {
+    font-size: 5em; /* Tamaño del título */
+    margin: 0; /* Sin margen */
+}
+
+.trabajo-contenido p {
+	padding-top: 1em;
+	font-size: 2em; /* Tamaño del título */
+    margin: 10px 0; /* Margen para el párrafo */
+}
+
+.boton-visitar {
+    display: inline-block; /* Para que el botón se comporte como un bloque */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #14110F; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.boton-visitar:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
