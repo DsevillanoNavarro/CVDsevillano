@@ -261,10 +261,12 @@ p {
 	justify-content: center;
 	align-items: center;
 	gap: 4em;
+	margin-top: 10em;
+	margin-bottom: 20%;
 }
 .foto-contacto{
 width: 15%;
-border: 20px solid;
+border: 15px solid;
 border-radius: 2em;
 margin-right: 20em;
 transform: rotate(-90deg);
@@ -278,4 +280,34 @@ transform: rotate(-90deg);
 #contactForm{
 	display: flex;
 	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	gap: 25px;
+	text-align: center;
+	justify-content: center;
+	justify-items: center;
+
+}
+
+.contenido-contacto{
+	background-color: #231f1c;
+	padding: 20px;
+	width: 30%;
+	display: flex;
+
+}
+#botonForm {
+    display: inline-block; /* Para que el botón se comporte como un bloque */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #14110F; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+	width: 40%;
+	
+}
+
+#botonForm:hover {
+    background-color: #060606; /* Color de fondo al pasar el mouse */
 }
