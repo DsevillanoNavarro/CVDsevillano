@@ -225,3 +225,34 @@ p {
     margin-left: 20px; /* Espacio entre la imagen y el contenido */
 }
 
+#estudios {
+    margin: 40px 0;
+}
+
+.tarjetas-container {
+    display: flex; /* Usar flexbox para alinear las tarjetas */
+    justify-content: space-between; /* Espacio entre las tarjetas */
+    padding-top: 20px; /* Espaciado superior */
+}
+
+.tarjetaEstudios {
+    background-color: #231f1c; /* Fondo de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Margen entre tarjetas */
+    flex: 1; /* Permitir que las tarjetas ocupen el mismo espacio */
+    min-width: 200px; /* Ancho mínimo para las tarjetas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Centrar el texto */
+}
+
+.tarjetaEstudios img {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho de la tarjeta */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+
+.tarjetaEstudios p {
+    margin-top: 10px; /* Espaciado superior para el texto */
+    font-size: 1.2em; /* Tamaño de fuente */
+}
