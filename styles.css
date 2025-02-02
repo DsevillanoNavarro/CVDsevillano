@@ -257,20 +257,32 @@ p {
     font-size: 1.2em; /* Tamaño de fuente */
 }
 #tarjetaContacto{
+	background-image: url('https://images.pexels.com/photos/316902/pexels-photo-316902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+	margin: 40px;
+    animation: fadeIn 1s ease-in-out; /* Animation for section */
+    height: auto;
+    justify-items: center;
+    align-content: center;
+    border: 1px solid transparent; /* Border default color */
+    border-radius: 15px; /* Rounded corners */
+    transition: box-shadow 1s; /* Smooth transition for border color */
+	overflow: hidden;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 4em;
-	margin-top: 10em;
-	margin-bottom: 20%;
+	justify-content: space-around;
+	
 }
 .foto-contacto{
 width: 15%;
 border: 15px solid;
 border-radius: 2em;
-margin-right: 20em;
-transform: rotate(-90deg);
+transition: width 0.3s ease;
 
+}
+.foto-contacto:hover{
+	width: 17%;
 }
 
 #contactame{
@@ -294,7 +306,7 @@ transform: rotate(-90deg);
 	padding: 20px;
 	width: 30%;
 	display: flex;
-
+	border-radius: 1em;
 }
 #botonForm {
     display: inline-block; /* Para que el botón se comporte como un bloque */
@@ -302,12 +314,44 @@ transform: rotate(-90deg);
     background-color: #14110F; /* Color de fondo del botón */
     color: white; /* Color del texto */
     text-decoration: none; /* Sin subrayado */
+	border-style: none;
     border-radius: 5px; /* Bordes redondeados */
     transition: background-color 0.3s; /* Transición suave para el color de fondo */
 	width: 40%;
+	margin: auto;
+}
+#contactForm input, textarea{
+	background-color: #ccc;
+	border-radius: 1em;
+	height: 3em;
+	border-style: none;
+}
+#botonForm:hover {
+    background-color: #060606; /* Color de fondo al pasar el mouse */
+}
+
+.contenido-contacto:hover {
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
 	
 }
 
-#botonForm:hover {
-    background-color: #060606; /* Color de fondo al pasar el mouse */
+footer{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: #14110F;
+    color: #F3F3F4;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+footer img,a{
+	width: 20%;
+
+}
+footer p{
+	font-size: 2em;
 }

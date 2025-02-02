@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página de Ejemplo</title>
+    <title data-es="CV Daniel Sevillano Navarro" data-en="CV Daniel Sevillano Navarro">CV Daniel Sevillano Navarro</title>
     <link rel="stylesheet" href="styles.css">
-	
 </head>
 <body>
     <header>
-        <h1 data-es="Bienvenido">CV Daniel Sevillano Navarro</h1>
+        <h1 data-es="Bienvenido" data-en="Welcome">Bienvenido</h1>
         <div class="language-switch">
-            <span id="idioma">IDIOMA:</span>
+            <span id="idioma" data-es="IDIOMA:" data-en="LANGUAGE:">IDIOMA:</span>
             <img id="flag-spanish" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png" alt="Español" class="flag">
             <label class="switch">
                 <input type="checkbox" id="languageSwitch" onchange="cambiarIdioma(this.checked)">
@@ -22,92 +21,92 @@
     </header>
 
     <section id="presentacion">
-        <h2 id="tituloPresentacion" data-es="Subtítulo en Español" data-en="Subtitle in English">Hola, Soy Daniel Sevillano Navarro y soy Desarrollador Web</h2>
-        <p id="subtituloPresentacion" data-es="Este es un párrafo adicional en español." data-en="This is an additional paragraph in English.">Desarrollador Web trabajo con JavaScript, HTML5, CSS, Docker, Python</p>
-
+        <h2 id="tituloPresentacion" data-es="Hola, Soy Daniel Sevillano Navarro y soy Desarrollador Web" data-en="Hello, I am Daniel Sevillano Navarro and I am a Web Developer">Hola, Soy Daniel Sevillano Navarro y soy Desarrollador Web</h2>
+        <p id="subtituloPresentacion" data-es="Desarrollador Web trabajo con JavaScript, HTML5, CSS, Docker, Python" data-en="Web developer I work with JavaScript, HTML5, CSS, Docker, Python">Desarrollador Web trabajo con JavaScript, HTML5, CSS, Docker, Python</p>
     </section>
-	<div id="espacio">
-		<hr id="separador">
-	</div>
-	<section id="trabajos">
-		<h2 id="tituloTrabajos" data-es="Subtítulo en Español" data-en="Subtitle in English" class="fade-in">Trabajos</h2>
-		<div id="tarjetaTrabajo"  class="fade-in">
-			<img src="https://images.pexels.com/photos/1930852/pexels-photo-1930852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Animales Masquefa" class="trabajo-imagen">
-			<div class="trabajo-contenido">
-				<h3>Animales Masquefa</h3>
-				<p id="descripcionTrabajo">
-					Desarrollé 'Animales Masquefa', una plataforma web para una protectora de animales utilizando Django. Implementé modelos para gestionar información sobre los animales en adopción y vistas dinámicas con Django Views. Utilicé formularios personalizados para las solicitudes de adopción y la integración de autenticación de usuarios. La página permite la visualización de perfiles de animales y facilita el contacto con la protectora.
-				</p>
-				<a href="#" class="boton-visitar">Visitar</a>
-			</div>
-		</div>
 
+    <div id="espacio">
+        <hr id="separador">
+    </div>
 
-		<div id="tarjetaTrabajoInvertida"  class="fade-in">
-			<div class="trabajo-contenido">
-				<h3>En desarrollo</h3>
-				<p id="descripcionTrabajo">
-					Actualmente estoy trabajando en el desarrollo de una plataforma web que está en fase de implementación. El proyecto se encuentra en progreso y tiene como objetivo ofrecer una solución práctica y eficiente. Estoy enfocado en crear una experiencia de usuario intuitiva y una estructura técnica sólida para garantizar su escalabilidad y funcionalidad a largo plazo.
-				</p>
-				<a href="#" class="boton-visitar">Visitar</a>
-			</div>
-			<img src="https://images.pexels.com/photos/5926398/pexels-photo-5926398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Animales Masquefa" class="trabajo-imagen">
-		</div>
-	</section>
+    <section id="trabajos">
+        <h2 id="tituloTrabajos" data-es="Trabajos" data-en="Works" class="fade-in">Trabajos</h2>
+        <div id="tarjetaTrabajo" class="fade-in">
+            <img src="https://images.pexels.com/photos/1930852/pexels-photo-1930852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Animales Masquefa" class="trabajo-imagen">
+            <div class="trabajo-contenido">
+                <h3 data-es="Animales Masquefa" data-en="Animales Masquefa">Animales Masquefa</h3>
+                <p id="descripcionTrabajo" data-es="Desarrollé 'Animales Masquefa', una plataforma web para una protectora de animales utilizando Django. Implementé modelos para gestionar información sobre los animales en adopción y vistas dinámicas con Django Views. Utilicé formularios personalizados para las solicitudes de adopción y la integración de autenticación de usuarios. La página permite la visualización de perfiles de animales y facilita el contacto con la protectora." data-en="I developed 'Animales Masquefa', a web platform for an animal shelter using Django. I implemented models to manage information about animals available for adoption and dynamic views with Django Views. I used custom forms for adoption requests and integrated user authentication. The website allows users to view animal profiles and facilitates contact with the shelter.">Desarrollé 'Animales Masquefa', una plataforma web para una protectora de animales utilizando Django. Implementé modelos para gestionar información sobre los animales en adopción y vistas dinámicas con Django Views. Utilicé formularios personalizados para las solicitudes de adopción y la integración de autenticación de usuarios. La página permite la visualización de perfiles de animales y facilita el contacto con la protectora.</p>
+                <a href="#" class="boton-visitar" data-es="Visitar" data-en="Visit">Visitar</a>
+            </div>
+        </div>
 
-	<div id="espacio">
-		<hr id="separador">
-	</div>
+        <div id="tarjetaTrabajoInvertida" class="fade-in">
+            <div class="trabajo-contenido">
+                <h3 data-es="En desarrollo" data-en="In development">En desarrollo</h3>
+                <p id="descripcionTrabajo" data-es="Actualmente estoy trabajando en el desarrollo de una plataforma web que está en fase de implementación. El proyecto se encuentra en progreso y tiene como objetivo ofrecer una solución práctica y eficiente. Estoy enfocado en crear una experiencia de usuario intuitiva y una estructura técnica sólida para garantizar su escalabilidad y funcionalidad a largo plazo." data-en="I am currently working on the development of a web platform that is in the implementation phase. The project is in progress and aims to offer a practical and efficient solution. I am focused on creating an intuitive user experience and a solid technical structure to ensure its scalability and long-term functionality.">Actualmente estoy trabajando en el desarrollo de una plataforma web que está en fase de implementación. El proyecto se encuentra en progreso y tiene como objetivo ofrecer una solución práctica y eficiente. Estoy enfocado en crear una experiencia de usuario intuitiva y una estructura técnica sólida para garantizar su escalabilidad y funcionalidad a largo plazo.</p>
+                <a href="#" class="boton-visitar" data-es="Visitar" data-en="Visit">Visitar</a>
+            </div>
+            <img src="https://images.pexels.com/photos/5926398/pexels-photo-5926398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Animales Masquefa" class="trabajo-imagen">
+        </div>
+    </section>
 
-	
-		<section id="estudios">
-			<h2 id="tituloTrabajos" data-es="Subtítulo en Español" data-en="Subtitle in English">Estudios y Experiencia</h2>
-			<div class="tarjetas-container">
-				<div class="tarjetaEstudios">
-					<img src="https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Descripción 1">
-					<p>Grado Medio en Sistemas (finalizado) IES HERMANOS MACHADO | Sevilla, España | (2021-2023)</p>
-				</div>
-				<div class="tarjetaEstudios">
-					<img src="https://images.pexels.com/photos/16532434/pexels-photo-16532434/free-photo-of-noche-edificio-urbano-pueblo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Descripción 2">
-					<p>Técnico en Sistemas |
-						Serviceplanet | Rotterdam, Países Bajos |  (04/2023 - 06/2023) FCT
-						
-					</p>
-				</div>
-				<div class="tarjetaEstudios">
-					<img src="https://images.pexels.com/photos/12081657/pexels-photo-12081657.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Descripción 3">
-					<p>Grado Superior en Desarrollo Web (en curso) | IES HERMANOS MACHADO | Sevilla, España | (2023-2025)</p>
-				</div>
-				<div class="tarjetaEstudios">
-					<img src="https://images.pexels.com/photos/11982345/pexels-photo-11982345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Descripción 4">
-					<p>Desarrollador de aplicaciones web | Serviceplanet | Rotterdam, Países Bajos |  (03/2025 - 06/2025) FCT</p>
-				</div>
-			</div>
-		</section>
-	<div id="espacio">
-		<hr id="separador">
-	</div>
-		<section id="contactame">
-			<h2 id="tituloTrabajos" data-es="Subtítulo en Español" data-en="Subtitle in English">Contactame</h2>
-			<div id="tarjetaContacto" class="fade-in">
-				<img src="img/yo.png" alt="Tu Nombre" class="foto-contacto">
-				
-				<div class="contenido-contacto">
-					<form id="contactForm" action="mailto:dsevillanonavarro123@gmail.com" method="post" enctype="text/plain">
-						<label for="name">Nombre:</label>
-						<input type="text" id="name" name="name" required>
-						
-						<label for="email">Email:</label>
-						<input type="email" id="email" name="email" required>
-						
-						<label for="message">Mensaje:</label>
-						<textarea id="message" name="message" rows="4" required></textarea>
-						
-						<button id="botonForm" type="submit">Enviar</button>
-					</form>
-				</div>
-			</div>
-		</section>
+    <div id="espacio">
+        <hr id="separador">
+    </div>
+
+    <section id="estudios">
+        <h2 id="tituloTrabajos" data-es="Estudios y Experiencia" data-en="Studies and Experience">Estudios y Experiencia</h2>
+        <div class="tarjetas-container">
+            <div class="tarjetaEstudios">
+                <img src="https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Grado Medio en Sistemas" data-es="Grado Medio en Sistemas (finalizado) IES HERMANOS MACHADO | Sevilla, España | (2021-2023)" data-en="Intermediate Degree in Systems (completed) IES HERMANOS MACHADO | Seville, Spain | (2021-2023)">
+                <p data-es="Grado Medio en Sistemas (finalizado) IES HERMANOS MACHADO | Sevilla, España | (2021-2023)" data-en="Intermediate Degree in Systems (completed) IES HERMANOS MACHADO | Seville, Spain | (2021-2023)">Grado Medio en Sistemas (finalizado) IES HERMANOS MACHADO | Sevilla, España | (2021-2023)</p>
+            </div>
+            <div class="tarjetaEstudios">
+                <img src="https://images.pexels.com/photos/16532434/pexels-photo-16532434/free-photo-of-noche-edificio-urbano-pueblo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Técnico en Sistemas" data-es="Técnico en Sistemas | Serviceplanet | Rotterdam, Países Bajos | (04/2023 - 06/2023) FCT" data-en="Technician in Systems | Serviceplanet | Rotterdam, Netherlands | (04/2023 - 06/2023) FCT">
+                <p data-es="Técnico en Sistemas | Serviceplanet | Rotterdam, Países Bajos | (04/2023 - 06/2023) FCT" data-en="Technician in Systems | Serviceplanet | Rotterdam, Netherlands | (04/2023 - 06/2023) FCT">Técnico en Sistemas | Serviceplanet | Rotterdam, Países Bajos | (04/2023 - 06/2023) FCT</p>
+            </div>
+            <div class="tarjetaEstudios">
+                <img src="https://images.pexels.com/photos/12081657/pexels-photo-12081657.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Grado Superior en Desarrollo Web" data-es="Grado Superior en Desarrollo Web (en curso) | IES HERMANOS MACHADO | Sevilla, España | (2023-2025)" data-en="Higher Degree in Web Development (in progress) | IES HERMANOS MACHADO | Seville, Spain | (2023-2025)">
+                <p data-es="Grado Superior en Desarrollo Web (en curso) | IES HERMANOS MACHADO | Sevilla, España | (2023-2025)" data-en="Higher Degree in Web Development (in progress) | IES HERMANOS MACHADO | Seville, Spain | (2023-2025)">Grado Superior en Desarrollo Web (en curso) | IES HERMANOS MACHADO | Sevilla, España | (2023-2025)</p>
+            </div>
+            <div class="tarjetaEstudios">
+                <img src="https://images.pexels.com/photos/11982345/pexels-photo-11982345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Desarrollador de aplicaciones web" data-es="Desarrollador de aplicaciones web | Serviceplanet | Rotterdam, Países Bajos | (03/2025 - 06/2025) FCT" data-en="Web Applications Developer | Serviceplanet | Rotterdam, Netherlands | (03/2025 - 06/2025) FCT">
+                <p data-es="Desarrollador de aplicaciones web | Serviceplanet | Rotterdam, Países Bajos | (03/2025 - 06/2025) FCT" data-en="Web Applications Developer | Serviceplanet | Rotterdam, Netherlands | (03/2025 - 06/2025) FCT">Desarrollador de aplicaciones web | Serviceplanet | Rotterdam, Países Bajos | (03/2025 - 06/2025) FCT</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="espacio">
+        <hr id="separador">
+    </div>
+
+    <section id="contactame">
+        <h2 id="tituloTrabajos" data-es="Contáctame" data-en="Contact Me">Contactame</h2>
+        <div id="tarjetaContacto" class="fade-in">
+            <img src="img/yo.png" alt="Tu Nombre" class="foto-contacto">
+            <div class="contenido-contacto">
+                <form id="contactForm" action="mailto:dsevillanonavarro123@gmail.com" method="post" enctype="text/plain">
+                    <label for="name" data-es="Nombre:" data-en="Name:">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email" data-es="Email:" data-en="Email:">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message" data-es="Mensaje:" data-en="Message:">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button id="botonForm" type="submit" data-es="Enviar" data-en="Send">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://github.com/DsevillanoNavarro"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a>
+        <b><p data-es="Contáctame también por aquí" data-en="Contact me also here">Contactame también por aquí</p></b>
+        <a href="https://www.linkedin.com/in/danielsevillanonavarro/"><img src="https://cdn-icons-png.flaticon.com/512/4401/4401412.png" alt="LinkedIn"></a>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
