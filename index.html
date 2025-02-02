@@ -85,14 +85,29 @@
 			</div>
 		</section>
 	<div id="espacio">
-			<hr id="separador">
-		</div>
-	<section id="titulos">
-		<h2 id="tituloTrabajos" data-es="Subtítulo en Español" data-en="Subtitle in English">Contactame</h2>
-
-		
-	</section>
-
+		<hr id="separador">
+	</div>
+		<section id="contactame">
+			<h2 id="tituloTrabajos" data-es="Subtítulo en Español" data-en="Subtitle in English">Contactame</h2>
+			<div id="tarjetaContacto" class="fade-in">
+				<img src="img/yo.png" alt="Tu Nombre" class="foto-contacto">
+				
+				<div class="contenido-contacto">
+					<form id="contactForm" action="mailto:dsevillanonavarro123@gmail.com" method="post" enctype="text/plain">
+						<label for="name">Nombre:</label>
+						<input type="text" id="name" name="name" required>
+						
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required>
+						
+						<label for="message">Mensaje:</label>
+						<textarea id="message" name="message" rows="4" required></textarea>
+						
+						<button type="submit">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</section>
     <script src="script.js"></script>
 </body>
 </html>

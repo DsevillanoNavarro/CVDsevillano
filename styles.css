@@ -256,3 +256,26 @@ p {
     margin-top: 10px; /* Espaciado superior para el texto */
     font-size: 1.2em; /* Tamaño de fuente */
 }
+#tarjetaContacto{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4em;
+}
+.foto-contacto{
+width: 15%;
+border: 20px solid;
+border-radius: 2em;
+margin-right: 20em;
+transform: rotate(-90deg);
+
+}
+
+#contactame{
+	background-size: cover;
+    background-position: center;
+}
+#contactForm{
+	display: flex;
+	flex-direction: column;
+}
