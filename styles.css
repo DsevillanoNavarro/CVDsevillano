@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@300;400;700&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+    font-family: 'Montserrat', sans-serif; /* Change font to Roboto */
     margin: 0;
     padding: 0;
     background-color: #14110F;
@@ -89,9 +89,10 @@ input:checked + .slider:before {
     background-image: url('https://images.pexels.com/photos/6924270/pexels-photo-6924270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
-    padding: 50px 20px;
+    padding: 50px;
     animation: fadeIn 1s ease-in-out; /* Animation for section */
-	height: 35em;
+	height: auto;
+	justify-items: center;
 	align-content: center;
 }
 
@@ -116,11 +117,12 @@ h2 {
     animation-delay: 0.5s; /* Delay for h2 */
 }
 #tituloPresentacion{
-	font-size: 7em;
-	margin:0;
+	font-size: 6em;
+	margin: 0;
 }
 #subtituloPresentacion{
-	font-size: 4em;
+	padding-top: 3em;
+	font-size: 3em;
 	margin: 0;
 }
 p {
