@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+	background-color: #14110F;
+	color: #F3F3F4;
 }
 
 header {
@@ -9,14 +11,16 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
     padding: 10px;
+	background-color: #14110F;
+	color: #F3F3F4;
+
 }
 
-.switch {
+.language-switch {
     display: flex;
     align-items: center;
-    cursor: pointer;
 }
 
 #idioma {
@@ -36,6 +40,7 @@ header {
     display: inline-flex;
     width: 60px;
     height: 34px;
+    margin: 0 10px; /* Añadir margen para evitar superposición */
 }
 
 .switch input {
@@ -53,7 +58,7 @@ header {
     bottom: 0;
     background-color: #ccc;
     transition: 0.4s;
-    border-radius: 50px;
+    border-radius: 34px;
 }
 
 .slider:before {
@@ -61,16 +66,15 @@ header {
     content: "";
     height: 26px;
     width: 26px;
-    border-radius: 50px;
+    border-radius: 50%;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: #F3F3F4;
     transition: 0.4s;
 }
 
-/* Cuando el interruptor está activado (checked) */
 input:checked + .slider {
-    background-color: #4CAF50;
+    background-color: #7E7F83;
 }
 
 input:checked + .slider:before {

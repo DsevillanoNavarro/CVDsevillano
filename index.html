@@ -8,23 +8,21 @@
 </head>
 <body>
     <header>
-        <h1 data-es="Bienvenido" data-en="Welcome">Bienvenido</h1>
-        <label class="switch">
+        <h1 data-es="Bienvenido">CV Daniel Sevillano Navarro</h1>
+        <div class="language-switch">
             <span id="idioma">IDIOMA:</span>
-            <!-- Bandera España -->
             <img id="flag-spanish" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png" alt="Español" class="flag">
-            <input type="checkbox" id="languageSwitch" onchange="cambiarIdioma(this.checked)">
-            <span class="slider"></span>
-            <!-- Bandera Reino Unido -->
-            <img id="flag-english" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_Kingdom.svg/2560px-Flag_of_the_United_Kingdom.svg.png" alt="Inglés" class="flag">
-        </label>
+            <label class="switch">
+                <input type="checkbox" id="languageSwitch" onchange="cambiarIdioma(this.checked)">
+                <span class="slider"></span>
+            </label>
+            <img id="flag-english" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/800px-Flag_of_the_United_Kingdom.svg.png?20190917170937" alt="Inglés" class="flag">
+        </div>
     </header>
 
-    <p data-es="Esta es una página de ejemplo en español." data-en="This is an example page in English.">Esta es una página de ejemplo en español.</p>
-
     <section>
-        <h2 data-es="Subtítulo en Español" data-en="Subtitle in English">Subtítulo en Español</h2>
-        <p data-es="Este es un párrafo adicional en español." data-en="This is an additional paragraph in English.">Este es un párrafo adicional en español.</p>
+        <h2 data-es="Subtítulo en Español" data-en="Subtitle in English">Soy Daniel Sevillano y soy Desarrollador Web</h2>
+        <p data-es="Este es un párrafo adicional en español." data-en="This is an additional paragraph in English.">Desarrollador Web | JavaScript, HTML5, CSS, Docker, Python | Mantenimiento de Sistemas</p>
     </section>
 
     <script src="script.js"></script>
