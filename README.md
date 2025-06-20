@@ -6,6 +6,8 @@
 
 Este CV digital está desarrollado en HTML, CSS y JavaScript puro, sin frameworks externos, con un enfoque en la accesibilidad, la estética y la interacción del usuario.
 
+👉 **[Ver en DeepWiki](https://deepwiki.com/DsevillanoNavarro/CVDsevillano)**
+
 ### Características destacadas:
 
 - 🌍 **Soporte Multilenguaje** (Español/Inglés) con cambio de idioma instantáneo.
@@ -44,7 +46,7 @@ dsevillanonavarro-cvdsevillano/
 
 Puedes ver una demo del proyecto accediendo localmente con cualquier navegador. Solo abre `index.html`.
 
-(Enlace de despliegue aún no disponible. Se recomienda usar GitHub Pages o Netlify.)
+[🌍 Ver CV en línea](https://cvdanielsevillano.netlify.app/)
 
 ---
 
