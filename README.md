@@ -78,7 +78,6 @@ cd dsevillanonavarro-cvdsevillano
 ## ✍️ Autor
 
 **Daniel Sevillano Navarro**  
-[GitHub](https://github.com/DsevillanoNavarro)  
 [LinkedIn](https://www.linkedin.com/in/danielsevillanonavarro/)  
 📧 dsevillanonavarro123@gmail.com
 
